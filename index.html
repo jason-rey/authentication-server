@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="connect.js" defer></script>
+
+    <!-- TEMPORARY STOPS CACHING REMOVE WHEN DONE -->
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <!-- TEMPORARY DON"T SAVE CACHE REMOVE WHEN DONE -->
+
+    <style>
+        #container {
+            margin: auto;
+            text-align: center;
+            
+        }
+
+        #textBox {
+            text-align: left;
+            margin: auto;
+            overflow: auto;
+
+            /* overflow:auto; display:flex; flex-direction:column-reverse; */
+            height: 250px;
+            width: 250px;
+        }
+
+        #msgInput {
+            margin-left: auto;
+            margin-right: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="textBox"></div>
+        <input type="text" id="msgInput">
+    </div>
+</body>
+</html>
